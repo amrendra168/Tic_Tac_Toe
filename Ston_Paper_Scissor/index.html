@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4b4b6d36b4.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>STONE<br><span>PAPER</span><br>SCISSORS</h1>
+
+    <!-- Score Board -->
+
+    <div class="score-board">
+
+        <div class="player">
+            <h3>YOU</h3>
+            <p id="user-score">0</p>
+        </div>
+
+        <div class="vs">
+            VS
+        </div>
+
+        <div class="player">
+            <h3>COMPUTER</h3>
+            <p id="computer-score">0</p>
+        </div>
+
+    </div>
+
+    <div class="choose">
+        Choose Your Move
+    </div>
+
+    <!-- Choices -->
+
+    <div class="choices">
+
+        <button class="choice rock">
+            ✊
+            <span>STONE</span>
+        </button>
+
+        <button class="choice paper">
+            🖐️
+            <span>PAPER</span>
+        </button>
+
+        <button class="choice scissors">
+            ✌️
+            <span>SCISSORS</span>
+        </button>
+
+    </div>
+
+    <div class="status">
+        First to 5 Wins!
+    </div>
+    <button id="reset-btn">Play Again</button>
+
+    <div class="rules">
+
+        <h2>Game Rules</h2>
+
+        <p>✊ Stone beats Scissors</p>
+        <p>🖐️ Paper beats Stone</p>
+        <p>✌️ Scissors beats Paper</p>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
