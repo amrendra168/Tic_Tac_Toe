@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Winning Message Popup -->
+    <div class="msg-container hide">
+        <h2 id="msg">🎉 Player X Wins!</h2>
+        <button id="new-btn" class="game-btn">Play Again</button>
+    </div>
+
+    <div id="main">
+
+        <h1>Tic-Tac-Toe</h1>
+
+        <!-- Current Turn -->
+        <p id="turn">Current Turn : O</p>
+
+        <!-- Game Board -->
+        <div class="container">
+            <div id="game">
+
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+
+            </div>
+        </div>
+
+        <!-- Bottom Buttons -->
+        <div class="buttons">
+            <button id="new-btn2" class="game-btn">New Game</button>
+            <button id="reset-btn" class="game-btn">Reset Game</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
